@@ -8,22 +8,30 @@
 	</HEAD>
 	<BODY>
 		<DIV class="content">
-			<FORM ID="ES1" NAME="campi1" ACTION="" METHOD="GET">
-				Campo 1:<BR>
-				<INPUT TYPE="text" NAME="campo1"><BR>
-				Campo 2:<BR>
-				<INPUT TYPE="text" NAME="campo2"><BR><BR>
-				<INPUT TYPE="button" onclick="nomeCognome(this.form)" VALUE="Esercizio1"/>
-				<INPUT TYPE="button" onclick="calcoli(this.form)" VALUE="Esercizio2"/>
-			</FORM>
-			<FORM ID="ES2" NAME="campi2" ACTION="" METHOD="GET">
-				Sesso:<BR>
-				<INPUT TYPE="radio" NAME="sesso" VALUE="M" CHECKED>Maschio<BR>
-				<INPUT TYPE="radio" NAME="sesso" VALUE="F">Femmina<BR>
-				Data di Nascita:<BR>
-				<INPUT TYPE="date" NAME="compleanno"><BR><BR>
-				<INPUT TYPE="button" onclick="esercizio2(this.form)" VALUE="Esegui!"/>
-			</FORM>
+			<DIV class="E1">
+				<FORM ID="ES1" NAME="campi1" ACTION="" METHOD="GET">
+					<span class="center_text">Esercizio 1<BR><BR></span>
+					Campo 1:<BR>
+					<INPUT TYPE="text" NAME="campo1"><BR>
+					Campo 2:<BR>
+					<INPUT TYPE="text" NAME="campo2"><BR><BR>
+					<DIV CLASS="center_el">
+						<INPUT TYPE="button" onclick="nomeCognome(this.form)" VALUE="Parte A"/>
+						<INPUT TYPE="button" onclick="calcoli(this.form)" VALUE="Parte B"/>
+					</DIV>
+				</FORM>
+			</DIV>
+			<DIV class="E2">
+				<FORM ID="ES2" NAME="campi2" ACTION="" METHOD="GET">
+					<span class="center_text">Esercizio 2<BR><BR></span>
+					Sesso:<BR>
+					<INPUT TYPE="radio" NAME="sesso" VALUE="M" CHECKED>Maschio<BR>
+					<INPUT TYPE="radio" NAME="sesso" VALUE="F">Femmina<BR>
+					Data di Nascita:<BR>
+					<INPUT TYPE="date" NAME="compleanno"><BR><BR>
+					<INPUT CLASS="center_el" TYPE="button" onclick="esercizio2(this.form)" VALUE="Esegui!"/>
+				</FORM>
+			</DIV>
 		</DIV>
 	</BODY>
 </HTML>

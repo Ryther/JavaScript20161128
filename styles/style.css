@@ -1,17 +1,38 @@
 div.content {
 	position: relative;
-	left: 35%;
-	width: 25%;
-	height: 145px;
+	overflow: hidden;
+	display: inline-block;
+	display: table;
+	margin: 0 auto;
 	border: 2px solid gray;
 }
-form#ES1 {
+div.E1 {
 	position: relative;
-	padding-left: 5px;
 	float: left;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid red;
+}
+div.E2 {
+	position: relative;
+	float: right;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid blue;
+}
+.center_text {
+	font-weight: bold;
+	text-decoration: underline;
+	display: table;
+	margin: 0 auto;
+}
+.center_el {
+	display: table;
+	margin: 0 auto;
+}
+form#ES1{
+	position: relative;
 }
 form#ES2{
 	position: relative;
-	padding-right: 5px;
-	float: right;
 }
