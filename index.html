@@ -1,0 +1,29 @@
+<!doctype html>
+<HTML lang="it">
+	<HEAD>
+		<META CHARSET="iso-8859-1" />
+		<TITLE>Primi Esercizi</TITLE>
+		<LINK REL="stylesheet" TYPE="text/css" HREF="styles/style.css">
+		<SCRIPT SRC="scripts/script.js"></SCRIPT>
+	</HEAD>
+	<BODY>
+		<DIV class="content">
+			<FORM ID="ES1" NAME="campi1" ACTION="" METHOD="GET">
+				Campo 1:<BR>
+				<INPUT TYPE="text" NAME="campo1"><BR>
+				Campo 2:<BR>
+				<INPUT TYPE="text" NAME="campo2"><BR><BR>
+				<INPUT TYPE="button" onclick="nomeCognome(this.form)" VALUE="Esercizio1"/>
+				<INPUT TYPE="button" onclick="calcoli(this.form)" VALUE="Esercizio2"/>
+			</FORM>
+			<FORM ID="ES2" NAME="campi2" ACTION="" METHOD="GET">
+				Sesso:<BR>
+				<INPUT TYPE="radio" NAME="sesso" VALUE="M" CHECKED>Maschio<BR>
+				<INPUT TYPE="radio" NAME="sesso" VALUE="F">Femmina<BR>
+				Data di Nascita:<BR>
+				<INPUT TYPE="date" NAME="compleanno"><BR><BR>
+				<INPUT TYPE="button" onclick="esercizio2(this.form)" VALUE="Esegui!"/>
+			</FORM>
+		</DIV>
+	</BODY>
+</HTML>
